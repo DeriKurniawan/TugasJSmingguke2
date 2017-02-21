@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>pseudocode - html</title>
+  </head>
+  <body>
+    <h1>Tugas no 1</h1>
+    <script type="text/javascript">
+    var total=0;
+    var index;
+      for(index=1; index<=100; index++){
+        if(index%2==0){
+          total=total+index;
+        }
+        else{
+          total=total-index;
+        }
+      }
+      document.write("Totalnya adalah : " +total);
+    </script>
+    <h1>Tugas no 2</h1>
+    <script type="text/javascript">
+      var pagar="";
+      var indexlagi;
+        for(indexlagi=1; indexlagi<=10; indexlagi++){
+          for(var index2=1; index2<=10; index2++){
+            pagar=pagar+"#";
+          }
+          document.write(pagar+"<br/>");
+          pagar="";
+        }
+    </script>
+    <h1>Tugas no 3</h1>
+    <script type="text/javascript">
+    var bintang="";
+    var index1;
+      for(index1=1; index1<=10; index1++){
+        for(var index2=1; index2<=10; index2++){
+          bintang=bintang+"*";
+        }
+        document.write(bintang +"<br/>");
+        bintang="";
+      }
+    </script>
+  </body>
+</html>
